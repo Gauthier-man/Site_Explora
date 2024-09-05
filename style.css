@@ -167,12 +167,6 @@ img {
   flex: 1;
 }
 
-#prev_visites p {
-  flex: 1;
-  margin-top: 2.5rem;
-  font-size: 0.8rem;
-}
-
 #card-activites {
   display: flex;
   justify-content: space-between;
@@ -232,7 +226,11 @@ img {
   gap: 1rem;
 }
 
-.fa-solid {
+.card_content p {
+  font-size: 0.8rem;
+}
+
+.fi {
   color: #18abc6;
   margin-top: 15px;
 }
@@ -301,7 +299,7 @@ img {
   display: flex;
 }
 
-.more_activites p {
+.text-container p {
   flex: 1;
   margin-top: 2.5rem;
   font-size: 0.8rem;
@@ -545,4 +543,45 @@ footer h5 {
 
 hr {
   width: 83%;
+}
+
+.full_picture h1 {
+  font-size: 4.8rem;
+  width: 70%;
+  margin: 0;
+}
+
+.full_picture {
+  position: relative;
+}
+
+.content_cards h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.content_cards h5 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+.content_cards {
+  padding: 6rem;
+}
+
+.sect_gallery {
+  padding: 6rem;
+}
+
+.arrow_center .fi {
+  color: inherit;
+}
+
+.sect_gallery img {
+  height: 240px;
 }
